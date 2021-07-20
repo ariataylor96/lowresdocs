@@ -1,0 +1,20 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "LowResNickel Documentation"
+theme = "hugo-geekdoc"
+
+pluralizeListTitles = false
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startlevel = 1
+endlevel = 3
+
+[params]
+geekdocBradcrumb = true
